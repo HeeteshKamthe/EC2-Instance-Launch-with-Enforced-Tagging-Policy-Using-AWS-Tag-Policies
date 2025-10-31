@@ -243,18 +243,18 @@ aws ec2 run-instances \
 ## Example Screenshots (mock images)
 
 * `img/tag-policy-create.png` — "Tag policy creation in AWS Organizations (management account)."
-  <p align="center"> <img src="img/tag-policy-create.png" alt="tag-policy-create" width="500"/> </p>
+  <p align="center"> <img src="img/tag-policy-create.png" alt="tag-policy-create" width="800"/> </p>
   
 * `img/tag-policy-attach.jpg` — "Attaching the tag policy to OU/account."
-  <p align="center"> <img src="img/tag-policy-attach.jpg" alt="tag-policy-attach" width="500"/> </p>
+  <p align="center"> <img src="img/tag-policy-attach.jpg" alt="tag-policy-attach" width="800"/> </p>
   
 * `img/success-with-tags.jpg` — "EC2 launch succeeded with required tags present."
   <p align="center"> <img src="img/correct-tags.jpg" alt="correct-tags" width="500"/> </p>
-  <p align="center"> <img src="img/success-with-tags.jpg" alt="success-with-tags" width="500"/> </p>
+  <p align="center"> <img src="img/success-with-tags.jpg" alt="success-with-tags" width="800"/> </p>
   
 * `img/failure-missing-tags.jpg` — "EC2 launch blocked when required tags are missing — console error shown."
-  <p align="center"> <img src="img/wrong-tags.jpg" alt="wrong-tags" width="500"/> </p>
-  <p align="center"> <img src="failure-missing-tags.jpg" alt="failure-missing-tags.jpg" width="500"/> </p>
+  <p align="center"> <img src="img/wrong-tags.jpg" alt="wrong-tags" width="800"/> </p>
+  <p align="center"> <img src="failure-missing-tags.jpg" alt="failure-missing-tags" width="800"/> </p>
   
 
 ---
