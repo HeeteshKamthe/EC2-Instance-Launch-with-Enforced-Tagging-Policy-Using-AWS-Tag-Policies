@@ -49,16 +49,44 @@ The EC2 instance **must** have these tags at launch:
 {
   "tags": {
     "Name": {
-      "enforced_for": ["ec2:Instance"]
-    },
-    "emailID": {
-      "enforced_for": ["ec2:Instance"]
+      "tag_key": {
+        "@@assign": "Name"
+      },
+      "enforced_for": {
+        "@@assign": [
+          "ec2:instance"
+        ]
+      }
     },
     "phoneNo": {
-      "enforced_for": ["ec2:Instance"]
+      "tag_key": {
+        "@@assign": "phoneNo"
+      },
+      "enforced_for": {
+        "@@assign": [
+          "ec2:instance"
+        ]
+      }
+    },
+    "emailID": {
+      "tag_key": {
+        "@@assign": "emailID"
+      },
+      "enforced_for": {
+        "@@assign": [
+          "ec2:instance"
+        ]
+      }
     },
     "Place": {
-      "enforced_for": ["ec2:Instance"]
+      "tag_key": {
+        "@@assign": "Place"
+      },
+      "enforced_for": {
+        "@@assign": [
+          "ec2:instance"
+        ]
+      }
     }
   }
 }
