@@ -253,7 +253,7 @@ aws ec2 run-instances \
   <p align="center"> <img src="img/success-with-tags.jpg" alt="success-with-tags" width="800"/> </p>
   
 * `img/failure-missing-tags.jpg` — "EC2 launch blocked when required tags are missing — console error shown."
-  <p align="center"> <img src="failure-missing-tags.jpg" alt="failure-missing-tags" width="800"/> </p>
+  <p align="center"> <img src="img/failure-missing-tags.jpg" alt="failure-missing-tags" width="800"/> </p>
   
 
 ---
