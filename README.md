@@ -244,10 +244,10 @@ aws ec2 run-instances \
 
 Place actual screenshots in an `assets/` folder and update references below before final submission.
 
-* `assets/tag-policy-create.png` — "Tag policy creation in AWS Organizations (management account)."
-* `assets/tag-policy-attach.png` — "Attaching the tag policy to OU/account."
-* `assets/success-with-tags.png` — "EC2 launch succeeded with required tags present."
-* `assets/failure-missing-tags.png` — "EC2 launch blocked when required tags are missing — console error shown."
+* `img/tag-policy-create.png` — "Tag policy creation in AWS Organizations (management account)."
+* `img/tag-policy-attach.png` — "Attaching the tag policy to OU/account."
+* `img/success-with-tags.png` — "EC2 launch succeeded with required tags present."
+* `img/failure-missing-tags.png` — "EC2 launch blocked when required tags are missing — console error shown."
 
 ---
 
