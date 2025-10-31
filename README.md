@@ -243,7 +243,7 @@ aws ec2 run-instances \
 ## Example Screenshots (mock images)
 
 * `img/tag-policy-create.png` — "Tag policy creation in AWS Organizations (management account)."
-  <p align="center"> <img src="img/tag-policy-create.jpg" alt="tag-policy-create" width="800"/> </p>
+  <p align="center"> <img src="img/tag-policy-create.png" alt="tag-policy-create" width="800"/> </p>
   
 * `img/tag-policy-attach.jpg` — "Attaching the tag policy to OU/account."
   <p align="center"> <img src="img/tag-policy-attach.jpg" alt="tag-policy-attach" width="800"/> </p>
@@ -253,7 +253,6 @@ aws ec2 run-instances \
   <p align="center"> <img src="img/success-with-tags.jpg" alt="success-with-tags" width="800"/> </p>
   
 * `img/failure-missing-tags.jpg` — "EC2 launch blocked when required tags are missing — console error shown."
-  <p align="center"> <img src="img/wrong-tags.jpg" alt="wrong-tags" width="800"/> </p>
   <p align="center"> <img src="failure-missing-tags.jpg" alt="failure-missing-tags" width="800"/> </p>
   
 
