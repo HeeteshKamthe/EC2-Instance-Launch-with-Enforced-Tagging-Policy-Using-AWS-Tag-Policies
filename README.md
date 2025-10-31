@@ -49,34 +49,20 @@ The EC2 instance **must** have these tags at launch:
 {
   "tags": {
     "Name": {
-      "enforced_for": ["ec2:instance"],
-      "value": {
-        "type": "string",
-        "maxLength": 128
-      }
+      "enforced_for": ["ec2:Instance"]
     },
     "emailID": {
-      "enforced_for": ["ec2:instance"],
-      "value": {
-        "type": "string",
-        "pattern": "^.+@.+\\..+$"
-      }
+      "enforced_for": ["ec2:Instance"]
     },
     "phoneNo": {
-      "enforced_for": ["ec2:instance"],
-      "value": {
-        "type": "string",
-        "pattern": "^\\+?\\d{7,15}$"
-      }
+      "enforced_for": ["ec2:Instance"]
     },
     "Place": {
-      "enforced_for": ["ec2:instance"],
-      "value": {
-        "type": "string"
-      }
+      "enforced_for": ["ec2:Instance"]
     }
   }
 }
+
 ```
 
 > Replace the `enforced_for` resource types with the correct service resource identifiers if needed (e.g., `ec2:instance` or `ec2:instance/*` depending on how your organization expects it). Always validate the policy in the Organizations console before enforcing.
